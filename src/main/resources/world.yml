@@ -1,0 +1,16 @@
+## Y-Level cutoff feature
+# Enables y level cutoff feature
+enable-y-level-cutoff: true
+# When the player is above this Y level, chunk data will be cut off.
+reveal-height: 16
+# This defines from where chunks will be cut off.
+cutoff-height: 0
+## Structure hiding feature
+# Enable structure hiding
+enable-structure-hiding: true
+# A list of all structures that should be hidden.
+hidden-structures:
+  - "mineshaft"
+  - "stronghold"
+  - "trail_ruins"
+  - "trial_chambers"
